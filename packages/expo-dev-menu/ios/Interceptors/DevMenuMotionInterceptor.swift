@@ -3,7 +3,6 @@
 import Foundation
 #if os(iOS) || os(tvOS)
 import UIKit
-#endif
 
 class DevMenuMotionInterceptor {
   /**
@@ -37,3 +36,5 @@ extension UIWindow {
     }
   }
 }
+
+#endif
